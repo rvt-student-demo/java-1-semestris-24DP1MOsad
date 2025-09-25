@@ -7,13 +7,12 @@ public class number_and_sum_of_number {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;
         int sk = 0;
-        System.out.println("Give a number:");
-        int num = Integer.valueOf(scanner.nextLine());
+        int num = -1;
         while (num != 0) {
-            sum += num;
-            sk += 1;
             System.out.println("Give a number:");
             num = Integer.valueOf(scanner.nextLine());
+            sum += num;
+            sk += 1;
         }
         System.out.println("Number of numbers: " + sk);
         System.out.println("Sum of the numbers: " + sum);
