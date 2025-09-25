@@ -17,5 +17,6 @@ public class number_and_sum_of_number {
         }
         System.out.println("Number of numbers: " + sk);
         System.out.println("Sum of the numbers: " + sum);
+        scanner.close();
     }
 }
