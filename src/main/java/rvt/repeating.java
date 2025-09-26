@@ -12,7 +12,7 @@ public class repeating {
         int odd = 0;
         for (int i = 1; i > 0; i++){
             int num = Integer.valueOf(scanner.nextLine());
-            if (num < 0) {
+            if (num == -1) {
                 break;
             } else if (num % 2 == 0) {
                 even++;
