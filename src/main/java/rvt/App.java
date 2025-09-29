@@ -1,8 +1,14 @@
 package rvt;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
-        // Your code goes here...
-        System.out.println("hello");
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        int result = random.nextInt(6) + 1;
+        System.out.println(result);
     }
 }
