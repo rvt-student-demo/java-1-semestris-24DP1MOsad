@@ -16,7 +16,7 @@ public class swap {
         int num2 = Integer.valueOf(scanner.nextLine());
         int num3 = ar[num1];
         ar[num1] = ar[num2];
-        ar[num2] = ar[num3];
+        ar[num2] = num3;
 
         for (int i = 0; i < 5; i++) {
             System.out.println(ar[i]);
