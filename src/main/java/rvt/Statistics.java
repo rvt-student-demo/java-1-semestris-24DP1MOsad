@@ -22,6 +22,11 @@ public class Statistics {
     }
 
     public double average() {
-        return 1.0 * sum / count; 
+        if (count != 0) {
+            return 1.0 * sum / count; 
+        } else {
+            return 0;
+        }
+        
     }
 }
